@@ -11,9 +11,9 @@ html {
 
 body {
 
-	min-height: 100%;
+  min-height: 100%;
   display: grid;
-	background-image: url(http://image.noelshack.com/fichiers/2018/46/1/1542017496-milky-way.jpg);
+  background-image: url(http://image.noelshack.com/fichiers/2018/46/1/1542017496-milky-way.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -23,12 +23,13 @@ body {
 
 }
 
+
 footer {
 
-	grid-row-start: 8;
-  	grid-row-end: 9;
+  grid-row-start: 8;
+    grid-row-end: 9;
 
-	position: relative;
+  position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -44,13 +45,23 @@ footer {
 
 nav {
 
-	background-image: url(http://image.noelshack.com/fichiers/2018/46/1/1542017496-milky-way.jpg);
+  background-image: url(http://image.noelshack.com/fichiers/2018/46/1/1542017496-milky-way.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
 }
+
+/** to make rotate the background button :) **/
+.rotation-image {
+
+-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
 
 .round-avatar {
 
@@ -72,8 +83,8 @@ nav {
 
 #hometext {
 
-	padding-top: 100px;
-	text-align: center;
+  padding-top: 100px;
+  text-align: center;
 
 }
 
@@ -94,8 +105,8 @@ nav {
 
 .avatar {
 
-	border-radius: 50%;
-	width: 100%;
+  border-radius: 50%;
+  width: 100%;
     height: auto;
 }
 
@@ -104,10 +115,10 @@ nav {
 .tab button:focus {outline:0;}
 
 .tab {
-	
-	margin-top: 80px;
-	margin-left: 25%;
-	margin-right: 25%;
+  
+  margin-top: 80px;
+  margin-left: 25%;
+  margin-right: 25%;
     overflow: hidden;
     border: 1px solid #ccc;
     border-top-left-radius: 15px;
@@ -118,9 +129,9 @@ nav {
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-	
-	margin: 0 auto;
-	width: 25%;
+  
+  margin: 0 auto;
+  width: 25%;
     background-color: inherit;
     float: left;
     border: none;
@@ -147,15 +158,15 @@ nav {
 
 /* Style the tab content */
 .tabcontent {
-	
-	text-align: center;
+  
+  text-align: center;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-left: 25%;
-	margin-right: 25%;
+  margin-right: 25%;
     border-top: none;
     background-color: transparent;
     color: white;
